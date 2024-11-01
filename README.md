@@ -16,7 +16,7 @@ Python library dependencies:
 
 Dataset:
 
-[VulFixMiner]: Reference paper: Zhou et al. "Finding A Needle in a Haystack: Automated Mining of Silent Vulnerability Fixes. ACM, 2021. (link: [[http://yuyue.github.io/res/paper/DupPR-msr2017.pdf](https://ieeexplore.ieee.org/abstract/document/9678720)])
+[VulFixMiner]: Reference paper: Zhou et al. "Finding A Needle in a Haystack: Automated Mining of Silent Vulnerability Fixes. ACM, 2021. (link: [https://ieeexplore.ieee.org/abstract/document/9678720])
 <including a total of 256 Java and Python projects.>
 
 ---
