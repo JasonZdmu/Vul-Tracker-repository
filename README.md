@@ -20,6 +20,7 @@ Dataset:
 <including a total of 256 Java and Python projects.>
 
 ---
+
 #### **If you want to successfully run Vul-Tracker, please set up the environment as follows.**
 
 1. Ensure at least two graphics cards with 8GB of memory each to avoid memory overflow issues.
@@ -30,22 +31,8 @@ Dataset:
 
 4. Import the corresponding library versions according to the library dependencies.
    
-5. Create the following project structure on your local machine.   
+---        
 
-        
-    finetuned_embeddings
-       ...
-    Vul-Tracker
-        model
-        misrosoft
-          codebert-base
-        feature
-        dataset
-        ...the remaining code...
-        
-```
-
----
 #### **After completing the above settings, you can run the Vul-Tracker code following the steps below.**
        #### **Extract seven levels of code features.**
              + related_commit_feature.py
