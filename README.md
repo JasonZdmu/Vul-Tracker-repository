@@ -14,6 +14,11 @@ Python library dependencies:
 
 ---
 
+Dataset:
+
+[VulFixMiner]: Reference paper: Zhou et al. "Finding A Needle in a Haystack: Automated Mining of Silent Vulnerability Fixes. ACM, 2021. (link: [http://yuyue.github.io/res/paper/DupPR-msr2017.pdf](https://ieeexplore.ieee.org/abstract/document/9678720))
+<including a total of 256 Java and Python projects.>
+
 ---
 #### **If you want to successfully run Vul-Tracker, please set up the environment as follows.**
 
@@ -26,16 +31,17 @@ Python library dependencies:
 4. Import the corresponding library versions according to the library dependencies.
    
 5. Create the following project structure on your local machine.   
+
         
-   finetuned_embeddings
-           ...
-   Vul_Tracker
-     >model
-     >microsoft
-       >codebert-base
-     >features
-     >dataset
-     >...the remaining code...
+    finetuned_embeddings
+       ...
+    Vul-Tracker
+        model
+        misrosoft
+          codebert-base
+        feature
+        dataset
+        ...the remaining code...
         
 ```
 
